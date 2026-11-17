@@ -1,0 +1,9 @@
+{
+  "geode": "4.0.0",
+  "gd": { "win": "2.2074", "android": "2.2074", "mac": "2.2074", "ios": "2.2074" },
+  "id": "seunome.autodeco",
+  "name": "AutoDeco",
+  "version": "v0.1.0",
+  "developer": "SeuNome",
+  "description": "Decora o layout automaticamente em 3 estilos, analisando blocos, quinas, espinhos e rampas."
+}
