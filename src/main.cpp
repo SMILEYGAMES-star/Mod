@@ -31,7 +31,6 @@ class $modify(AutoDecoUI, EditorUI) {
             if (p.flipX) o->setFlipX(true);
             if (p.flipY) o->setFlipY(true);
             n++;
-        }
-        FLAlertLayer::create("AutoDeco", fmt::format("{} objetos de decoracao criados.", n), "OK")->show();
+        }        FLAlertLayer::create("AutoDeco", (std::to_string(n) + " objetos criados.").c_str(), "OK")->show();
     }
 };
